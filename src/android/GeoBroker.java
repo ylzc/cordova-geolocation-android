@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package com.sucsoft.geolocation;
+package org.apache.cordova.geolocation;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

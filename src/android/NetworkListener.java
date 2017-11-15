@@ -17,7 +17,7 @@
        under the License.
 */
 
-package com.sucsoft.geolocation;
+package org.apache.cordova.geolocation;
 
 
 import android.location.LocationManager;

@@ -17,7 +17,7 @@
        under the License.
 */
 
-package com.sucsoft.geolocation;
+package org.apache.cordova.geolocation;
 
 import android.location.LocationManager;
 
@@ -41,7 +41,7 @@ public class GPSListener extends CordovaLocationListener {
         if (!this.running) {
             if (this.locationManager.getProvider(LocationManager.GPS_PROVIDER) != null) {
                 this.running = true;
-                this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 60000, 0, this);
+                this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 0, this);
             } else {
                 this.fail(CordovaLocationListener.POSITION_UNAVAILABLE, "GPS provider is not available.");
             }

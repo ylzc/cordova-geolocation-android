@@ -17,4 +17,6 @@
          under the License.
 -->
 
-cordova-geolocation-plugin@0.3.6
+# org.apache.cordova.geolocation
+
+Plugin documentation: [doc/index.md](doc/index.md)
